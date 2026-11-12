@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+
+/* Remove as margens padrões */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #222;
+    color: white;
+    padding: 20px 40px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Nome do site */
+header h1 {
+    font-size: 28px;
+}
+
+/* Menu de navegação */
+nav {
+    display: flex;
+    gap: 25px;
+}
+
+/* Links */
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+/* Efeito ao passar o mouse */
+nav a:hover {
+    color: #00bfff;
+}
+img.livro1 {
+    width: 15%;
+    height: 100%;
+}
