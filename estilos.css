@@ -45,3 +45,10 @@ img.livro1 {
     width: 15%;
     height: 99%;
 }
+/*formatação da foto*/
+div.livro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
