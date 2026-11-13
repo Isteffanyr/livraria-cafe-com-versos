@@ -52,3 +52,7 @@ div.livro {
     align-items: center;
     margin-top: 20px;
 }
+div.resumo {
+    display: flex;
+    flex-direction: column;
+}
