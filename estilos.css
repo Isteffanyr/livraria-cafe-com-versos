@@ -1,5 +1,5 @@
 @charset "UTF-8";
-
+@import url('https://fonts.googleapis.com/css2?family=Agrave+Pro:wght@100..700&family=Isometra&family=Satisfy&family=Sedgwick+Ave+Display&display=swap');
 
 /* Remove as margens padrões */
 * {
@@ -43,7 +43,7 @@ nav a:hover {
 }
 img.livro1 {
     width: 15%;
-    height: 99%;
+    height: 100%;
 }
 /*formatação da foto*/
 div.livro {
@@ -52,7 +52,13 @@ div.livro {
     align-items: center;
     margin-top: 20px;
 }
+/*formatação do resumo do livro*/
 div.resumo {
-    display: flex;
-    flex-direction: column;
+    display:none;
+}
+/*formatação titulo da pagina*/
+h3.titulopagina {
+    margin: 20px;
+    font-size: 30px;
+   font-family: "Satisfy", cursive;
 }
