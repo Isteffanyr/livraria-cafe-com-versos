@@ -1,45 +1,337 @@
 <!DOCTYPE html>
+
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Café com Versos</title>
-    <link rel="stylesheet" href="estilos.css">
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Caf&eacute; com Versos - In&iacute;cio</title>
+    <link href="estilo.css" rel="stylesheet" />
 </head>
+
 <body>
-
     <header>
-        <h1>Café com Versos</h1>
-
+        <h1>Caf&eacute; com Versos</h1>
+        <img alt="Logo" id="logo" src="fotos/logo.png" />
         <nav>
-            <a href="#">Início</a>
-            <a href="#">Sobre</a>
-            <a href="#">Serviços</a>
-            <a href="#">Contato</a>
+            <a href="index.html">In&iacute;cio</a>
+            <a href="nacionais.html">Livros nacionais</a>
+            <a href="autores.html">Autores em ascens&atilde;o</a>
+            <a href="internacionais.html">Livros internacionais</a>
+            <a href="informacoes.html">Mais informa&ccedil;&otilde;es</a>
         </nav>
     </header>
-    <article>
-        <h3 class="titulopagina">Histórias que aquecem como um bom café.</h3>
-        <div class="livro">
-            <figure>
-                <img class="livro1" src="fotos/pequenoprincipe.jpg.jpeg" alt="Capa do livro">
-                <figcaption class="livro1">
-                    <p>O Pequeno Príncipe</p>
+    <main>
+        <h2>Nosso cat&aacute;logo de livros</h2>
+        <section>
+            <!-- Coloque aqui todos os livros do seu catálogo -->
+            <div class="livro">
+                <img alt="O Pequeno Pr&iacute;ncipe" class="livro1" src="fotos/pequenoprincipe.jpg" />
+                <figcaption>
+                    <p>O Pequeno Pr&iacute;ncipe</p>
                 </figcaption>
-            </figure>
-        </div>
-        <div class="resumo">
-            <p>
-                Um pequeno príncipe viaja por diferentes planetas
-                e conhece personagens que o fazem refletir sobre
-                a amizade, o amor e o verdadeiro sentido da vida.
-            </p>
-        </div>
-    </article>
+                <div class="resumo">
+                    <p>Um pequeno pr&iacute;ncipe viaja por diferentes planetas e aprende sobre amizade, amor e
+                        responsabilidade.</p>
+                </div>
+                <div aria-hidden="true" class="detalhe-hover"><img alt="Capa de O Pequeno Pr&iacute;ncipe"
+                        loading="lazy" src="fotos/pequenoprincipe.jpg" />
+                    <p class="preco-label">Pre&ccedil;o m&eacute;dio estimado</p><strong class="preco">R$ 39,90</strong>
+                </div>
+            </div>
+            <div class="livro">
+                <img alt="A Batalha do Labirinto" class="livro1" src="fotos/a.batalha.do.labirinto.jpg" />
+                <figcaption>
+                    <p>A Batalha do Labirinto</p>
+                </figcaption>
+                <div class="resumo">
+                    <p>Percy Jackson precisa enfrentar os perigos de um labirinto m&aacute;gico e impedir os planos de
+                        Cronos.</p>
+                </div>
+                <div aria-hidden="true" class="detalhe-hover"><img alt="Capa de A Batalha do Labirinto" loading="lazy"
+                        src="fotos/a.batalha.do.labirinto.jpg" />
+                    <p class="preco-label">Pre&ccedil;o m&eacute;dio estimado</p><strong class="preco">R$ 49,90</strong>
+                </div>
+            </div>
+            <div class="livro">
+                <img alt="A C&acirc;mara Secreta" class="livro1" src="fotos/a.camara.secreta.jpg" />
+                <figcaption>
+                    <p>A C&acirc;mara Secreta</p>
+                </figcaption>
+                <div class="resumo">
+                    <p>Harry Potter retorna a Hogwarts e investiga os mist&eacute;rios de uma antiga c&acirc;mara
+                        escondida.</p>
+                </div>
+                <div aria-hidden="true" class="detalhe-hover"><img alt="Capa de A C&acirc;mara Secreta" loading="lazy"
+                        src="fotos/a.camara.secreta.jpg" />
+                    <p class="preco-label">Pre&ccedil;o m&eacute;dio estimado</p><strong class="preco">R$ 44,90</strong>
+                </div>
+            </div>
+            <div class="livro">
+                <img alt="A Hora da Estrela" class="livro1" src="fotos/a.hora.da;estrela.jpg" />
+                <figcaption>
+                    <p>A Hora da Estrela</p>
+                </figcaption>
+                <div class="resumo">
+                    <p>Clarice Lispector conta a hist&oacute;ria de Macab&eacute;a, uma jovem nordestina que vive no Rio
+                        de Janeiro.</p>
+                </div>
+                <div aria-hidden="true" class="detalhe-hover"><img alt="Capa de A Hora da Estrela" loading="lazy"
+                        src="fotos/a.hora.da;estrela.jpg" />
+                    <p class="preco-label">Pre&ccedil;o m&eacute;dio estimado</p><strong class="preco">R$ 34,90</strong>
+                </div>
+            </div>
+            <div class="livro">
+                <img alt="Dom Casmurro" class="livro1" src="fotos/dom.casmurro.machadodeassis.jpg" />
+                <figcaption>
+                    <p>Dom Casmurro</p>
+                </figcaption>
+                <div class="resumo">
+                    <p>Machado de Assis explora ci&uacute;me, mem&oacute;ria e amor na hist&oacute;ria de Bentinho e
+                        Capitu.</p>
+                </div>
+                <div aria-hidden="true" class="detalhe-hover"><img alt="Capa de Dom Casmurro" loading="lazy"
+                        src="fotos/dom.casmurro.machadodeassis.jpg" />
+                    <p class="preco-label">Pre&ccedil;o m&eacute;dio estimado</p><strong class="preco">R$ 29,90</strong>
+                </div>
+            </div>
+            <div class="livro">
+                <img alt="Dr&aacute;cula" class="livro1" src="fotos/dracula.jpg" />
+                <figcaption>
+                    <p>Dr&aacute;cula</p>
+                </figcaption>
+                <div class="resumo">
+                    <p>Bram Stoker apresenta a hist&oacute;ria do famoso vampiro Conde Dr&aacute;cula.</p>
+                </div>
+                <div aria-hidden="true" class="detalhe-hover"><img alt="Capa de Dr&aacute;cula" loading="lazy"
+                        src="fotos/dracula.jpg" />
+                    <p class="preco-label">Pre&ccedil;o m&eacute;dio estimado</p><strong class="preco">R$ 42,90</strong>
+                </div>
+            </div>
+            <div class="livro">
+                <img alt="Torto Arado" class="livro1" src="fotos/torto.arado.jpg" />
+                <figcaption>
+                    <p>Torto Arado</p>
+                </figcaption>
+                <div class="resumo">
+                    <p>Itamar Vieira Junior narra a hist&oacute;ria de duas irm&atilde;s que vivem no sert&atilde;o da
+                        Bahia.</p>
+                </div>
+                <div aria-hidden="true" class="detalhe-hover"><img alt="Capa de Torto Arado" loading="lazy"
+                        src="fotos/torto.arado.jpg" />
+                    <p class="preco-label">Pre&ccedil;o m&eacute;dio estimado</p><strong class="preco">R$ 49,90</strong>
+                </div>
+            </div>
+            <div class="livro">
+                <img alt="O Iluminado" class="livro1" src="fotos/o.iluminado.jpg" />
+                <figcaption>
+                    <p>O Iluminado</p>
+                </figcaption>
+                <div class="resumo">
+                    <p>Uma fam&iacute;lia passa o inverno em um hotel isolado onde acontecimentos sobrenaturais
+                        come&ccedil;am a acontecer.</p>
+                </div>
+                <div aria-hidden="true" class="detalhe-hover"><img alt="Capa de O Iluminado" loading="lazy"
+                        src="fotos/o.iluminado.jpg" />
+                    <p class="preco-label">Pre&ccedil;o m&eacute;dio estimado</p><strong class="preco">R$ 54,90</strong>
+                </div>
+            </div>
+            <div class="livro">
+                <img alt="A Casa do Penhasco" class="livro1" src="fotos/a.casa.do.penhasco.jpg" />
+                <figcaption>
+                    <p>A Casa do Penhasco</p>
+                </figcaption>
+                <div class="resumo">
+                    <p>Agatha Christie apresenta Hercule Poirot em uma investiga&ccedil;&atilde;o envolvendo uma mulher
+                        que parece escapar misteriosamente de diversas tentativas de assassinato.</p>
+                </div>
+                <div aria-hidden="true" class="detalhe-hover"><img alt="Capa de A Casa do Penhasco" loading="lazy"
+                        src="fotos/a.casa.do.penhasco.jpg" />
+                    <p class="preco-label">Pre&ccedil;o m&eacute;dio estimado</p><strong class="preco">R$ 39,90</strong>
+                </div>
+            </div>
+            <div class="livro">
+                <img alt="A Dan&ccedil;a da Morte" class="livro1" src="fotos/a.danca.da.morte.jpg" />
+                <figcaption>
+                    <p>A Dan&ccedil;a da Morte</p>
+                </figcaption>
+                <div class="resumo">
+                    <p>Stephen King narra um mundo devastado por uma epidemia, no qual os sobreviventes precisam
+                        escolher entre for&ccedil;as opostas em uma batalha pelo futuro da humanidade.</p>
+                </div>
+                <div aria-hidden="true" class="detalhe-hover"><img alt="Capa de A Dan&ccedil;a da Morte" loading="lazy"
+                        src="fotos/a.danca.da.morte.jpg" />
+                    <p class="preco-label">Pre&ccedil;o m&eacute;dio estimado</p><strong class="preco">R$ 69,90</strong>
+                </div>
+            </div>
+            <div class="livro">
+                <img alt="A Paciente Silenciosa" class="livro1" src="fotos/a.paciente.silenciosa.jpg" />
+                <figcaption>
+                    <p>A Paciente Silenciosa</p>
+                </figcaption>
+                <div class="resumo">
+                    <p>Alex Michaelides conta a hist&oacute;ria de Alicia Berenson, uma pintora que deixa de falar
+                        ap&oacute;s um acontecimento misterioso. Um psicoterapeuta tenta descobrir a verdade por
+                        tr&aacute;s de seu sil&ecirc;ncio.</p>
+                </div>
+                <div aria-hidden="true" class="detalhe-hover"><img alt="Capa de A Paciente Silenciosa" loading="lazy"
+                        src="fotos/a.paciente.silenciosa.jpg" />
+                    <p class="preco-label">Pre&ccedil;o m&eacute;dio estimado</p><strong class="preco">R$ 49,90</strong>
+                </div>
+            </div>
+            <div class="livro">
+                <img alt="Garota Exemplar" class="livro1" src="fotos/garota.exemplar.jpg" />
+                <figcaption>
+                    <p>Garota Exemplar</p>
+                </figcaption>
+                <div class="resumo">
+                    <p>Gillian Flynn apresenta um suspense psicol&oacute;gico sobre o desaparecimento de Amy Dunne e os
+                        segredos que envolvem seu casamento com Nick.</p>
+                </div>
+                <div aria-hidden="true" class="detalhe-hover"><img alt="Capa de Garota Exemplar" loading="lazy"
+                        src="fotos/garota.exemplar.jpg" />
+                    <p class="preco-label">Pre&ccedil;o m&eacute;dio estimado</p><strong class="preco">R$ 49,90</strong>
+                </div>
+            </div>
+            <div class="livro">
+                <img alt="Jantar Secreto" class="livro1" src="fotos/jantar.secreto.jpg" />
+                <figcaption>
+                    <p>Jantar Secreto</p>
+                </figcaption>
+                <div class="resumo">
+                    <p>Raphael Montes apresenta quatro amigos que se mudam para o Rio de Janeiro e acabam envolvidos em
+                        um neg&oacute;cio clandestino que toma rumos assustadores.</p>
+                </div>
+                <div aria-hidden="true" class="detalhe-hover"><img alt="Capa de Jantar Secreto" loading="lazy"
+                        src="fotos/jantar.secreto.jpg" />
+                    <p class="preco-label">Pre&ccedil;o m&eacute;dio estimado</p><strong class="preco">R$ 44,90</strong>
+                </div>
+            </div>
+            <div class="livro">
+                <img alt="E N&atilde;o Sobrou Nenhum" class="livro1" src="fotos/nao.sobrou.nenhum.jpg" />
+                <figcaption>
+                    <p>E N&atilde;o Sobrou Nenhum</p>
+                </figcaption>
+                <div class="resumo">
+                    <p>Agatha Christie re&uacute;ne dez desconhecidos em uma ilha isolada, onde assassinatos misteriosos
+                        come&ccedil;am a acontecer e todos passam a ser suspeitos.</p>
+                </div>
+                <div aria-hidden="true" class="detalhe-hover"><img alt="Capa de E N&atilde;o Sobrou Nenhum"
+                        loading="lazy" src="fotos/nao.sobrou.nenhum.jpg" />
+                    <p class="preco-label">Pre&ccedil;o m&eacute;dio estimado</p><strong class="preco">R$ 39,90</strong>
+                </div>
+            </div>
+            <div class="livro">
+                <img alt="Assassinato no Expresso do Oriente" class="livro1"
+                    src="fotos/o.assassinato.no.expresso.oriente.jpg" />
+                <figcaption>
+                    <p>Assassinato no Expresso do Oriente</p>
+                </figcaption>
+                <div class="resumo">
+                    <p>Hercule Poirot precisa solucionar um assassinato ocorrido dentro de um trem de luxo preso pela
+                        neve. Todos os passageiros parecem esconder alguma coisa.</p>
+                </div>
+                <div aria-hidden="true" class="detalhe-hover"><img alt="Capa de Assassinato no Expresso do Oriente"
+                        loading="lazy" src="fotos/o.assassinato.no.expresso.oriente.jpg" />
+                    <p class="preco-label">Pre&ccedil;o m&eacute;dio estimado</p><strong class="preco">R$ 39,90</strong>
+                </div>
+            </div>
+            <div class="livro">
+                <img alt="Verity" class="livro1" src="fotos/verity.jpg" />
+                <figcaption>
+                    <p>Verity</p>
+                </figcaption>
+                <div class="resumo">
+                    <p>Colleen Hoover apresenta uma escritora contratada para terminar uma s&eacute;rie de livros.
+                        Durante seu trabalho, ela encontra um manuscrito que revela segredos perturbadores.</p>
+                </div>
+                <div aria-hidden="true" class="detalhe-hover"><img alt="Capa de Verity" loading="lazy"
+                        src="fotos/verity.jpg" />
+                    <p class="preco-label">Pre&ccedil;o m&eacute;dio estimado</p><strong class="preco">R$ 49,90</strong>
+                </div>
+            </div>
+            <div class="livro"><img alt="A Empregada" class="livro1" src="fotos/a.empregada.jpg" />
+                <figcaption>
+                    <p>A Empregada</p>
+                </figcaption>
+                <div class="resumo">
+                    <p>Millie aceita trabalhar na casa de uma fam&iacute;lia rica, mas percebe que aquela rotina esconde
+                        segredos perigosos.</p>
+                </div>
+                <div aria-hidden="true" class="detalhe-hover"><img alt="Capa de A Empregada" loading="lazy"
+                        src="fotos/a.empregada.jpg" />
+                    <p class="preco-label">Pre&ccedil;o m&eacute;dio estimado</p><strong class="preco">R$ 49,90</strong>
+                </div>
+            </div>
+            <div class="livro"><img alt="O Avesso da Pele" class="livro1" src="fotos/o.avesso.da.pele.jpg" />
+                <figcaption>
+                    <p>O Avesso da Pele</p>
+                </figcaption>
+                <div class="resumo">
+                    <p>Um romance sobre identidade, rela&ccedil;&otilde;es familiares e as marcas do racismo na
+                        sociedade brasileira.</p>
+                </div>
+                <div aria-hidden="true" class="detalhe-hover"><img alt="Capa de O Avesso da Pele" loading="lazy"
+                        src="fotos/o.avesso.da.pele.jpg" />
+                    <p class="preco-label">Pre&ccedil;o m&eacute;dio estimado</p><strong class="preco">R$ 44,90</strong>
+                </div>
+            </div>
+            <div class="livro"><img alt="Vidas Secas" class="livro1" src="fotos/vidas.secas.jpg" />
+                <figcaption>
+                    <p>Vidas Secas</p>
+                </figcaption>
+                <div class="resumo">
+                    <p>A trajet&oacute;ria de uma fam&iacute;lia sertaneja que enfrenta a seca, a pobreza e a luta pela
+                        sobreviv&ecirc;ncia.</p>
+                </div>
+                <div aria-hidden="true" class="detalhe-hover"><img alt="Capa de Vidas Secas" loading="lazy"
+                        src="fotos/vidas.secas.jpg" />
+                    <p class="preco-label">Pre&ccedil;o m&eacute;dio estimado</p><strong class="preco">R$ 32,90</strong>
+                </div>
+            </div>
+            <div class="livro"><img alt="Crime e Castigo" class="livro1" src="fotos/crime.e.castigo.jpg" />
+                <figcaption>
+                    <p>Crime e Castigo</p>
+                </figcaption>
+                <div class="resumo">
+                    <p>Um jovem estudante enfrenta as consequ&ecirc;ncias psicol&oacute;gicas e morais de um crime.</p>
+                </div>
+                <div aria-hidden="true" class="detalhe-hover"><img alt="Capa de Crime e Castigo" loading="lazy"
+                        src="fotos/crime.e.castigo.jpg" />
+                    <p class="preco-label">Pre&ccedil;o m&eacute;dio estimado</p><strong class="preco">R$ 49,90</strong>
+                </div>
+            </div>
+            <div class="livro"><img alt="Cem Anos de Solid&atilde;o" class="livro1"
+                    src="fotos/cem.anos.de.solidao.jpg" />
+                <figcaption>
+                    <p>Cem Anos de Solid&atilde;o</p>
+                </figcaption>
+                <div class="resumo">
+                    <p>A saga de v&aacute;rias gera&ccedil;&otilde;es da fam&iacute;lia Buend&iacute;a na cidade
+                        fict&iacute;cia de Macondo.</p>
+                </div>
+                <div aria-hidden="true" class="detalhe-hover"><img alt="Capa de Cem Anos de Solid&atilde;o"
+                        loading="lazy" src="fotos/cem.anos.de.solidao.jpg" />
+                    <p class="preco-label">Pre&ccedil;o m&eacute;dio estimado</p><strong class="preco">R$ 54,90</strong>
+                </div>
+            </div>
+            <div class="livro"><img alt="It: A Coisa" class="livro1" src="fotos/it.a.coisa.jpg" />
+                <figcaption>
+                    <p>It: A Coisa</p>
+                </figcaption>
+                <div class="resumo">
+                    <p>Um grupo de amigos encara uma presen&ccedil;a aterrorizante que assombra a cidade de Derry.</p>
+                </div>
+                <div aria-hidden="true" class="detalhe-hover"><img alt="Capa de It: A Coisa" loading="lazy"
+                        src="fotos/it.a.coisa.jpg" />
+                    <p class="preco-label">Pre&ccedil;o m&eacute;dio estimado</p><strong class="preco">R$ 69,90</strong>
+                </div>
+            </div>
+        </section>
+    </main>
     <footer>
-
+        <p>&copy; 2026 Caf&eacute; com Versos. Todos os direitos reservados.</p>
     </footer>
-
-
 </body>
+
 </html>
